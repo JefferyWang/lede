@@ -15,12 +15,12 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/mypackages
-git clone https://github.com/destan19/OpenAppFilter.git package/mypackages
-git clone https://github.com/vernesong/OpenClash.git package/mypackages
-git clone https://github.com/lisaac/luci-app-dockerman.git package/mypackages
-git clone https://github.com/lisaac/luci-in-docker.git package/mypackages
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/mypackages
-git clone https://github.com/jerrykuku/luci-app-ttnode.git package/mypackages
-git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/mypackages
-git clone https://github.com/tty228/luci-app-serverchan.git package/mypackages
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilte
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
+git clone https://github.com/lisaac/luci-in-docker.git package/luci-in-docker
+git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
+git clone https://github.com/jerrykuku/luci-app-ttnode.git package/luci-app-ttnode
+git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
+git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
