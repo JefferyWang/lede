@@ -18,7 +18,6 @@
 
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 git clone https://github.com/lisaac/luci-in-docker.git package/luci-in-docker
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilte
 git clone https://github.com/awesome-openwrt/luci-app-openclash.git package/luci-app-openclash
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
