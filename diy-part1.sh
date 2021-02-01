@@ -23,5 +23,4 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git pac
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
 git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter
