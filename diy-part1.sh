@@ -26,3 +26,5 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-pass
 git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter
 git clone https://github.com/sirpdboy/luci-app-poweroffdevice package/luci-app-poweroffdevice
 git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
