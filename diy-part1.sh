@@ -26,3 +26,4 @@ git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-
 git clone https://github.com/sirpdboy/luci-app-poweroffdevice package/luci-app-poweroffdevice
 git clone https://github.com/siropboy/sirpdboy-package package/sirpdboy-package
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
