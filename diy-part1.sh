@@ -17,11 +17,5 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/lisaac/luci-in-docker.git package/luci-in-docker
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
-git clone https://github.com/kiddin9/luci-theme-edge.git package/luci-theme-edge
-git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter
-git clone https://github.com/vernesong/OpenClash.git package/OpenClash
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-git clone https://github.com/fw876/helloworld.git package/helloworld
+git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
