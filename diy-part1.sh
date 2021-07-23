@@ -15,6 +15,7 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/lisaac/luci-in-docker.git package/luci-in-docker
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
