@@ -20,3 +20,4 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/lisaac/luci-in-docker.git package/luci-in-docker
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
