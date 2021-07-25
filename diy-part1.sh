@@ -19,7 +19,7 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 sed -i '$a src-git lienol https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+
 mkdir package/luci-app-openclash
 cd package/luci-app-openclash
 git init
@@ -43,3 +43,4 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
 git clone https://github.com/jefferymvp/luci-app-koolproxyR
 git clone https://github.com/kiddin9/luci-theme-edge.git
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
+git clone https://github.com/tty228/luci-app-serverchan.git
