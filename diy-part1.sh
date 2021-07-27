@@ -15,10 +15,8 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-sed -i '$a src-git lienol https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 
 mkdir package/luci-app-openclash
 cd package/luci-app-openclash
@@ -31,16 +29,10 @@ git branch --set-upstream-to=origin/master master
 
 cd ../lean
 git clone https://github.com/jerrykuku/lua-maxminddb.git
-git clone https://github.com/jerrykuku/luci-app-vssr.git
 rm -rf luci-theme-argon
 rm -rf luci-app-dockerman
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 git clone https://github.com/lisaac/luci-app-dockerman.git
 git clone https://github.com/lisaac/luci-in-docker.git
 git clone https://github.com/destan19/OpenAppFilter.git
-git clone https://github.com/skyformat99/eqos.git
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
 git clone https://github.com/jefferymvp/luci-app-koolproxyR
-git clone https://github.com/kiddin9/luci-theme-edge.git
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
-git clone https://github.com/tty228/luci-app-serverchan.git
