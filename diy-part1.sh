@@ -18,16 +18,8 @@
 # sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 # sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
-mkdir package/luci-app-openclash
-cd package/luci-app-openclash
-git init
-git remote add -f origin https://github.com/vernesong/OpenClash.git
-git config core.sparsecheckout true
-echo "luci-app-openclash" >> .git/info/sparse-checkout
-git pull origin master
-git branch --set-upstream-to=origin/master master
 
-cd ../lean
+cd package/lean
 git clone https://github.com/jerrykuku/lua-maxminddb.git
 rm -rf luci-theme-argon
 rm -rf luci-app-dockerman
