@@ -21,6 +21,7 @@
 
 cd package/lean
 git clone https://github.com/jerrykuku/lua-maxminddb.git
+git clone https://github.com/xiaorouji/openwrt-passwall.git
 rm -rf luci-theme-argon
 rm -rf luci-app-dockerman
 git clone https://github.com/lisaac/luci-app-dockerman.git
